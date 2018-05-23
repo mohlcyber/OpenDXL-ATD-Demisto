@@ -46,11 +46,11 @@ The atd_to_demisto_sub.py receives DXL messages from ATD, parse indicators creat
 <img width="1440" alt="screen shot 2018-05-23 at 08 47 25" src="https://user-images.githubusercontent.com/25227268/40407824-f51322a4-5e65-11e8-9186-623f67b8d5e2.png">
 
 ## Run the OpenDXL wrapper
-> python atd_subscriber.py
+> python atd_to_demisto_sub.py
 
 or
 
-> nohup python atd_subscriber.py &
+> nohup python atd_to_demisto_sub.py &
 
 ## Summary
 With this use case, ATD produces local intelligence that is immediatly launching new investigations and playbooks in Demisto Orchestration.
