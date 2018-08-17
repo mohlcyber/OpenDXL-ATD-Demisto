@@ -48,7 +48,7 @@ with DxlClient(config) as client:
 
             try:
                 query = event.payload.decode()
-                query = query[:-3]
+                query = query[:query.rfind('}')+1]
                 query = json.loads(query)
 
                 data = {
